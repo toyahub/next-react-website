@@ -1,22 +1,23 @@
 import Link from "next/link";
+import styles from 'components/Nav/nav.module.css'
 
 export default function Nav() {
     return (
         <nav>
-            <ul>
+            <ul className={styles.list}>
                 <li>
                     <Link href="/">
-                        <a>Home</a>
+                        Home
                     </Link>
                 </li>
                 <li>
                     <Link href="/about">
-                        <a>About</a>
+                        About
                     </Link>
                 </li>
                 <li>
                     <Link href="/blog">
-                        <a>blog</a>
+                        blog
                     </Link>
                 </li>
             </ul>

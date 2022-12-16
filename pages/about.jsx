@@ -1,18 +1,11 @@
-import ero from 'components/hero'
-export default function Home() {
+import Hero from '../components/Hero/hero'
+import ero from '../components/Hero/hero'
+
+export default function About() {
     return (
-        <>
-            <header>HEADER</header>
-
-            <main>
-                <div>
-                    <h1>CUBE</h1>
-                    <p>アウトプットしていくサイト</p>
-                </div>
-            </main>
-
-            <footer>FOOTER</footer>
-        </>
-
+        <Hero 
+            title="About"
+            subtitle="About development activities"
+            />
     )
 }

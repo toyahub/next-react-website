@@ -1,0 +1,3 @@
+.flexContainer {
+    composes: spaceBeTween from 'styles/utils.module.css';
+}

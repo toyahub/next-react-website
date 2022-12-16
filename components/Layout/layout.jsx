@@ -1,6 +1,5 @@
-import Header from 'components/header'
-import Footer from 'components/footer'
-
+import Header from 'components/Header/header'
+import Footer from 'components/Footer/footer'
 export default function Layout({ children }) {
     return (
         <>
