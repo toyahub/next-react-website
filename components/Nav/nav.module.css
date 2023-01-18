@@ -16,5 +16,5 @@
 }
 
 .list a:active {
-    color: var(--accent)
+    color: var(--accent);
 }

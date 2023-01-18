@@ -1,12 +1,12 @@
 :root {
 
-  --white: '#fff';
-  --gray-10:'#eeeeee';
-  --gray-25: '#aaaaaa';
-  --gray-50: '#707070';
-  --gray-75: '#444444';
-  --black: '#222222';
-  --accent: '#0d87e0';
+  --white: #ffffff;
+  --gray-10:#eeeeee;
+  --gray-25: #aaaaaa;
+  --gray-50: #707070;
+  --gray-75: #444444;
+  --black: #222222;
+  --accent: #0d87e0;
 
   /* タイポグラフィp84*/
   --body: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
